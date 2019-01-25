@@ -15,7 +15,7 @@ Why not?
 Pip it.
 
 ```
-    $ pip install wraphper
+$ pip install wraphper
 ```
 
 ## Usage
@@ -23,11 +23,11 @@ Pip it.
 Import the module and then fulfil your PHP fantasies in Python:
 
 ```python
-    from wraphper import wraphper as php
+from wraphper import wraphper as php
 
-    a = [1, 2, 3]
-    php.count(a)
-    # outputs: 3
+a = [1, 2, 3]
+php.count(a)
+# outputs: 3
 ```
 
 ## Supported functions
@@ -57,7 +57,11 @@ Follow these rules with contributed functions:
 
 ## Testing
 
-Tests are pending.
+Tests can be run by the following command:
+
+```
+$ python tests.py
+```
 
 ## Compatibility
 
