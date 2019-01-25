@@ -4,7 +4,7 @@
 
 Python wrappers for PHP functions, when you just can't shake it.
 
-# Why?
+## Why?
 
 If you're coming from PHP, you'll take a bit of time getting used to the new names or methods in Python. You could look up something like `"python str_replace"` everytime you want to do so, or you could just save time and use `php.str_replace('Hello', 'Goodbye', 'Hello, world!')`.
 
