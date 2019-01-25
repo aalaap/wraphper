@@ -1,4 +1,6 @@
 
+__version__ = '0.0.1.post1'
+
 class wraphper(object):
 
     @classmethod
@@ -14,6 +16,7 @@ class wraphper(object):
         Returns:
         int: Count of the items 
         """
+        
         if type(array) not in (list, dict):
             raise TypeError('Parameter must be an array or an object that implements Countable')
         
