@@ -23,7 +23,7 @@ $ pip install wraphper
 Import the module and then fulfil your PHP fantasies in Python:
 
 ```python
-from wraphper import wraphper as php
+import wraphper as php
 
 a = [1, 2, 3]
 php.count(a)
@@ -65,4 +65,21 @@ $ python tests.py
 
 ## Compatibility
 
-wraphper has been checked with Python 2.7 and 3.6, but there's no reason why it shouldn't work with older 3.x versions.
+wraphper has been checked with Python 2.7 and 3.6, but there's no reason why it shouldn't work with older versions.
+
+## Changelog
+
+### 0.0.1.post2 - 2019-01-28
+
+- **BREAKING** Removed class to make it easier to import and use
+- Added tuple support
+- Added more tests
+- Added changelog
+
+### 0.0.1.post1 - 2019-01-26
+
+- Added tests
+
+### 0.0.1 - 2019-01-26
+
+- Initial release with count() function
