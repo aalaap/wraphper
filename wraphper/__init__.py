@@ -1,23 +1,20 @@
 
-__version__ = '0.0.1.post1'
+__version__ = '0.0.1.post2'
 
-class wraphper(object):
+def count(array):
+    """
+    Returns the count of items in a in the list, dictionary or tuple.
 
-    @classmethod
-    def count(self, array):
-        """
-        Returns the count of items in a in the list or dictionary.
+    This is a wrapper for the PHP count() function that returns the count of items in an array.
 
-        This is a wrapper for the PHP count() function that returns the count of items in an array, a.k.a. lists or dictionaries.
+    Parameters:
+    array (list, dict, tuple): A list or a dictionary or a tuple
 
-        Parameters:
-        array (list, dict): A list or a dictionary
+    Returns:
+    int: Count of the items 
+    """
 
-        Returns:
-        int: Count of the items 
-        """
-        
-        if type(array) not in (list, dict):
-            raise TypeError('Parameter must be an array or an object that implements Countable')
-        
-        return len(array)
+    if type(array) not in (list, dict, tuple):
+        raise TypeError('Parameter must be an array or an object that implements Countable')
+    
+    return len(array)
