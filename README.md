@@ -35,6 +35,7 @@ php.count(a)
 This module is a work in progress. Not all functions are supported yet. The current list includes:
 
 - [count](http://php.net/manual/en/function.count.php)
+- [str_replace](http://php.net/manual/en/function.str-replace.php)
 
 PRs with more functions are welcome!
 
@@ -69,6 +70,10 @@ wraphper has been checked with Python 2.7 and 3.6, but there's no reason why it 
 
 ## Changelog
 
+### 0.0.2 - 2019-01-29
+
+- Added `str_replace`
+
 ### 0.0.1.post2 - 2019-01-28
 
 - **BREAKING** Removed class to make it easier to import and use
@@ -82,4 +87,4 @@ wraphper has been checked with Python 2.7 and 3.6, but there's no reason why it 
 
 ### 0.0.1 - 2019-01-26
 
-- Initial release with count() function
+- Initial release with `count` function
